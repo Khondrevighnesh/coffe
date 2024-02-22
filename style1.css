@@ -1,0 +1,119 @@
+:root{
+    --main-color:#deab5f;
+    --primary-color:#312e2e;
+}
+button{
+    padding: 10px 30px;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #100e0f;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+li{
+    display: inline;
+    list-style: none;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+li a:hover{
+    border-bottom: 2px solid #deab5f;
+}
+.header{
+    background: url(pexels-photo-129207.webp) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    text-align: center;
+
+}
+.main-heading{
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+}
+.primary-heading{
+    position: absolute;
+    bottom:4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin:  20px;
+}
+.main-btn{
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: transparent;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+    transform: translateY(60px);
+}
+#about-us{
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(pexels-photo-2396220.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.title-style{
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    color: #fff;
+    transform: translateX(-100px);
+}
+.line{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform: translateX(-120px);
+}
+.section-content p{
+    max-width: 500px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 20px;
+    margin: 20px 0;
+}
+coffe
